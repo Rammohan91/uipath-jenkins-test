@@ -65,11 +65,11 @@
       <AssemblyReference>UiPath.Mail</AssemblyReference>
       <AssemblyReference>UiPath.Studio.Plugin.Workflow</AssemblyReference>
       <AssemblyReference>UiPath.OrchestratorClient</AssemblyReference>
-      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
       <AssemblyReference>Microsoft.Rest.ClientRuntime</AssemblyReference>
       <AssemblyReference>System.Net.Http</AssemblyReference>
       <AssemblyReference>UiPath.Service.Api</AssemblyReference>
       <AssemblyReference>UiPath.Activities.Contracts</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
   <Sequence sap2010:WorkflowViewState.IdRef="Sequence_1">
@@ -96,8 +96,10 @@
       </ui:CommentOut.Body>
     </ui:CommentOut>
     <ui:LogMessage DisplayName="Log Message" sap2010:WorkflowViewState.IdRef="LogMessage_5" Level="Info" Message="[&quot;Fourth Commit&quot;]" />
-    <ui:LogMessage DisplayName="Log Message" Level="Info" Message="[&quot;Fifth Commit&quot;]" sap2010:WorkflowViewState.IdRef="LogMessage_6" />
-    <sads:DebugSymbol.Symbol>dzxDOlxVc2Vyc1x4cG1zXERvY3VtZW50c1xVaVBhdGhcSmVua2luc19UZXN0UHJvY2Vzc1xNYWluLnhhbWwPSwNlDgIBAVAFUKcBAgEPUQVRqgECAQ1SBVKiAQIBC1MFU7IBAgEHVAVhFQIBBmIFYpIBAgEEYwVjkQECAQJQclCkAQIBEFFyUacBAgEOUnJSnwECAQxTiwFTlwECAQpTpgFTrwECAQhicmKPAQIBBWNDY18CAQM=</sads:DebugSymbol.Symbol>
+    <ui:LogMessage DisplayName="Log Message" sap2010:WorkflowViewState.IdRef="LogMessage_6" Level="Info" Message="[&quot;Fifth Commit&quot;]" />
+    <ui:LogMessage DisplayName="Log Message" sap2010:WorkflowViewState.IdRef="LogMessage_7" Level="Info" Message="[&quot;Sixth Commit&quot;]" />
+    <ui:LogMessage DisplayName="Log Message" Level="Info" Message="[&quot;Seventh Commit&quot;]" sap2010:WorkflowViewState.IdRef="LogMessage_8" />
+    <sads:DebugSymbol.Symbol>dzxDOlxVc2Vyc1x4cG1zXERvY3VtZW50c1xVaVBhdGhcSmVua2luc19UZXN0UHJvY2Vzc1xNYWluLnhhbWwTSwNnDgIBAVAFUKcBAgETUQVRqgECARFSBVKiAQIBD1MFU7IBAgELVAVhFQIBCmIFYpIBAgEIYwVjkQECAQZkBWSRAQIBBGUFZZMBAgECUHJQpAECARRRclGnAQIBElJyUp8BAgEQU4sBU5cBAgEOU6YBU68BAgEMYnJijwECAQljcmOOAQIBB2RyZI4BAgEFZUNlYQIBAw==</sads:DebugSymbol.Symbol>
   </Sequence>
   <sap2010:WorkflowViewState.ViewStateManager>
     <sap2010:ViewStateManager>
@@ -123,14 +125,16 @@
       </sap2010:ViewStateData>
       <sap2010:ViewStateData Id="LogMessage_5" sap:VirtualizedContainerService.HintSize="314,91" />
       <sap2010:ViewStateData Id="LogMessage_6" sap:VirtualizedContainerService.HintSize="314,91" />
-      <sap2010:ViewStateData Id="Sequence_1" sap:VirtualizedContainerService.HintSize="336,929">
+      <sap2010:ViewStateData Id="LogMessage_7" sap:VirtualizedContainerService.HintSize="314,91" />
+      <sap2010:ViewStateData Id="LogMessage_8" sap:VirtualizedContainerService.HintSize="314,91" />
+      <sap2010:ViewStateData Id="Sequence_1" sap:VirtualizedContainerService.HintSize="336,1191">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="Main_1" sap:VirtualizedContainerService.HintSize="376,1009" />
+      <sap2010:ViewStateData Id="Main_1" sap:VirtualizedContainerService.HintSize="376,1311" />
     </sap2010:ViewStateManager>
   </sap2010:WorkflowViewState.ViewStateManager>
 </Activity>
